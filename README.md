@@ -1,4 +1,5 @@
-[查看效果可戳此]()
+[查看效果可戳此](https://kaifatuan.github.io/netease-music-summary/index.html)
+
 [配合文章效果食用更佳]()
 ## css
 - background-size :  
