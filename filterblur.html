@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .word {
+      filter: blur(10px);
+      display: inline-block;
+      width: 120px;
+      height: 120px;
+      background-size: 120px;
+      background-repeat: no-repeat;
+      animation: blurAppear 2s linear forwards;
+    }
+
+    @keyframes blurAppear {
+      0% {
+        filter: blur(10px);
+        transform: scale(.8);
+        opacity: 0;
+      }
+
+      100% {
+        filter: blur(0);
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .u-word {
+      animation: rotate 2s ease-in-out both;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      25% {
+        transform: rotate(2deg);
+      }
+
+      50% {
+        transform: rotate(0);
+      }
+
+      75% {
+        transform: rotate(-2deg);
+      }
+
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+
+    .word {
+      background-image: url(http://s5.music.126.net/static_public/5c21db8d4684556c72180904/word-005.fb23ac077f192198be71db00c07ea3a1.png);
+    }
+
+    .hand2 {
+      position: absolute;
+      background-image: url(http://s5.music.126.net/static_public/5c21db8d4684556c72180904/shou-mohu.9be9924e44b41258c71596bf5f41f588.png);
+      width: 80px;
+      height: 62px;
+      transform: scale(2.5);
+      animation: p01-shou-mohu 2.67s steps(1) forwards;
+    }
+
+    @keyframes p01-shou-mohu {
+      0% {
+        background-position: 0 0;
+      }
+
+      2.5% {
+        background-position: -80px 0;
+      }
+
+      5% {
+        background-position: -160px 0;
+      }
+
+      7.5% {
+        background-position: -240px 0;
+      }
+
+      10% {
+        background-position: -320px 0;
+      }
+
+      12.5% {
+        background-position: -400px 0;
+      }
+
+      15% {
+        background-position: -480px 0;
+      }
+
+      17.5% {
+        background-position: -560px 0;
+      }
+
+      20% {
+        background-position: -640px 0;
+      }
+
+      22.5% {
+        background-position: -720px 0;
+      }
+
+      25% {
+        background-position: -800px 0;
+      }
+
+      27.5% {
+        background-position: -880px 0;
+      }
+
+      30% {
+        background-position: -960px 0;
+      }
+
+      32.5% {
+        background-position: -1040px 0;
+      }
+
+      35% {
+        background-position: -1120px 0;
+      }
+
+      37.5% {
+        background-position: -1200px 0;
+      }
+
+      40% {
+        background-position: -1280px 0;
+      }
+
+      42.5% {
+        background-position: -1360px 0;
+      }
+
+      45% {
+        background-position: -1440px 0;
+      }
+
+      47.5% {
+        background-position: -1520px 0;
+      }
+
+      50% {
+        background-position: -1600px 0;
+      }
+
+      52.5% {
+        background-position: -1680px 0;
+      }
+
+      55% {
+        background-position: -1760px 0;
+      }
+
+      57.5% {
+        background-position: -1840px 0;
+      }
+
+      60% {
+        background-position: -1920px 0;
+      }
+
+      62.5% {
+        background-position: -2000px 0;
+      }
+
+      65% {
+        background-position: -2080px 0;
+      }
+
+      67.5% {
+        background-position: -2160px 0;
+      }
+
+      70% {
+        background-position: -2240px 0;
+      }
+
+      72.5% {
+        background-position: -2320px 0;
+      }
+
+      75% {
+        background-position: -2400px 0;
+      }
+
+      77.5% {
+        background-position: -2480px 0;
+      }
+
+      80% {
+        background-position: -2560px 0;
+      }
+
+      82.5% {
+        background-position: -2640px 0;
+      }
+
+      85% {
+        background-position: -2720px 0;
+      }
+
+      87.5% {
+        background-position: -2800px 0;
+      }
+
+      90% {
+        background-position: -2880px 0;
+      }
+
+      92.5% {
+        background-position: 0 -62px;
+      }
+
+      95% {
+        background-position: -80px -62px;
+      }
+
+      97.5% {
+        background-position: -160px -62px;
+      }
+
+      100% {
+        background-position: -240px -62px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="u-word u-word-005">
+    <div class="word"></div>
+  </div>
+  <div class="hands">
+    <div class="hand2"></div>
+    <div class="hand1"></div>
+    <div class="hand3"></div>
+  </div>
+</body>
+
+</html>
