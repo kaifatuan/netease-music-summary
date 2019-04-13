@@ -602,7 +602,7 @@ em, i {
   width: 100%;height: 100%;
   position: absolute;
   left: 0;top: 0;
-  background: url(../assert/cat/maoshenti.png);
+  background: url(./assert/cat/maoshenti.png);
   z-index: 2;
 }
 .maoyan {
@@ -612,12 +612,12 @@ em, i {
   z-index: 3;
 }
 .maoyan1 {
-  background: url(../assert/cat/maoyan1.png);
+  background: url(./assert/cat/maoyan1.png);
   right: 40px;
   bottom: 24px;
 }
 .maoyan2 {
-  background: url(../assert/cat/maoyan2.png);
+  background: url(./assert/cat/maoyan2.png);
   right: 20px;
   bottom: 20px;
 }
@@ -627,13 +627,13 @@ em, i {
   position: absolute;
   bottom: 11px;
   right: 33px;
-  background: url(../assert/cat/maozui.png);
+  background: url(./assert/cat/maozui.png);
   z-index: 3;
 }
 .maowei {
   width: 64px;
   height: 194px;
-  background: url(../assert/cat/maowei.png);
+  background: url(./assert/cat/maowei.png);
   position: absolute;
   left: 0;
   top: -182px;
@@ -654,7 +654,7 @@ em, i {
 .maozhua {
   width: 34px;
   height: 81px;
-  background: url(../assert/cat/maozhua.png);
+  background: url(./assert/cat/maozhua.png);
   right: 13px;bottom: -63px;
   position: absolute;
   z-index: 1;
